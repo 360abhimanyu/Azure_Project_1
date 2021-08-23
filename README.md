@@ -10,6 +10,19 @@ of PaaS is a concern. Therefore, we have used only Azure IaaS so we can control 
 
 To support this need and minimize future work, we employed Packer to create a server image, and Terraform to create a template for deploying a scalable cluster of servers with a load balancer to manage the incoming traffic. We have also adhered to security practices and ensured that our infrastructure is secure.
 
+
+##This project will deploy the following resources in Azure.
+
+Resource Group
+Virtual Network
+Subnet
+Network Security Group
+Network Interface
+Load balancer
+Virtual Machine
+Managed Disk
+Availability Set
+
 ### Main Steps
 The project consist of the following main steps:
 
@@ -80,7 +93,5 @@ This project can be adapted for use in a microservice architecture where the app
 
 ## References
 
-- Microsoft 2021, accessed 2021-01-23,\
-  <https://microsoft.github.io/AzureTipsAndTricks/blog/tip201.html>
 - Microsoft 2021, accessed 2021-01-23,\
   <https://docs.microsoft.com/en-us/azure/virtual-machines/linux/build-image-with-packer>
