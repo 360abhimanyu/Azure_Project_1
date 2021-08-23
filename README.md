@@ -11,7 +11,7 @@ of PaaS is a concern. Therefore, we have used only Azure IaaS so we can control 
 To support this need and minimize future work, we employed Packer to create a server image, and Terraform to create a template for deploying a scalable cluster of servers with a load balancer to manage the incoming traffic. We have also adhered to security practices and ensured that our infrastructure is secure.
 
 
-###This project will deploy the following resources in Azure.
+## This project will deploy the following resources in Azure.
 
   - Resource Group
   - Virtual Network
